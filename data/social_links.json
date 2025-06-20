@@ -1,11 +1,11 @@
 [
   {
-    "platform": "twitter",
-    "display_name": "Twitter",
-    "url_pattern": "https://twitter.com/{username}",
+    "platform": "x",
+    "display_name": "X (formerly Twitter)",
+    "url_pattern": "https://x.com/{username}",
     "validation_regex": "^[A-Za-z0-9_]{1,15}$",
-    "example": "https://twitter.com/jack",
-    "last_verified": "2024-06-10"
+    "example": "https://x.com/elonmusk",
+    "last_verified": "2025-06-20"
   },
   {
     "platform": "instagram",
@@ -13,7 +13,7 @@
     "url_pattern": "https://instagram.com/{username}",
     "validation_regex": "^[A-Za-z0-9_.]{1,30}$",
     "example": "https://instagram.com/instagram",
-    "last_verified": "2024-06-10"
+    "last_verified": "2025-06-20"
   },
   {
     "platform": "facebook",
@@ -21,7 +21,7 @@
     "url_pattern": "https://facebook.com/{username}",
     "validation_regex": "^[A-Za-z0-9.]{5,50}$",
     "example": "https://facebook.com/zuck",
-    "last_verified": "2024-06-10"
+    "last_verified": "2025-06-20"
   },
   {
     "platform": "tiktok",
@@ -29,7 +29,7 @@
     "url_pattern": "https://www.tiktok.com/@{username}",
     "validation_regex": "^[A-Za-z0-9_.]{2,24}$",
     "example": "https://www.tiktok.com/@charlidamelio",
-    "last_verified": "2024-06-10"
+    "last_verified": "2025-06-20"
   },
   {
     "platform": "linkedin",
@@ -37,6 +37,62 @@
     "url_pattern": "https://www.linkedin.com/in/{username}",
     "validation_regex": "^[A-Za-z0-9-]{5,30}$",
     "example": "https://www.linkedin.com/in/satyanadella",
-    "last_verified": "2024-06-10"
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "youtube",
+    "display_name": "YouTube",
+    "url_pattern": "https://www.youtube.com/@{username}",
+    "validation_regex": "^[A-Za-z0-9_]{3,30}$",
+    "example": "https://www.youtube.com/@pewdiepie",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "threads",
+    "display_name": "Threads",
+    "url_pattern": "https://www.threads.net/@{username}",
+    "validation_regex": "^[A-Za-z0-9_.]{1,30}$",
+    "example": "https://www.threads.net/@zuck",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "pinterest",
+    "display_name": "Pinterest",
+    "url_pattern": "https://www.pinterest.com/{username}",
+    "validation_regex": "^[A-Za-z0-9_]{3,30}$",
+    "example": "https://www.pinterest.com/pinterest",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "bluesky",
+    "display_name": "Bluesky",
+    "url_pattern": "https://bsky.app/profile/{username}",
+    "validation_regex": "^[A-Za-z0-9_.-]+\\.[A-Za-z]{2,}$",
+    "example": "https://bsky.app/profile/jack.bsky.social",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "mastodon",
+    "display_name": "Mastodon",
+    "url_pattern": "https://{instance}/@{username}",
+    "validation_regex": "^[A-Za-z0-9_]{1,30}$",
+    "example": "https://mastodon.social/@Gargron",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "snapchat",
+    "display_name": "Snapchat",
+    "url_pattern": "https://www.snapchat.com/add/{username}",
+    "validation_regex": "^[A-Za-z0-9._-]{3,15}$",
+    "example": "https://www.snapchat.com/add/snapchat",
+    "last_verified": "2025-06-20"
+  },
+  {
+    "platform": "reddit",
+    "display_name": "Reddit",
+    "url_pattern": "https://www.reddit.com/user/{username}",
+    "validation_regex": "^[A-Za-z0-9_-]{3,20}$",
+    "example": "https://www.reddit.com/user/spez",
+    "last_verified": "2025-06-20"
   }
 ] 
