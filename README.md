@@ -21,21 +21,21 @@ Social media platforms frequently change their URL structures, breaking integrat
 Each entry in `data/social_links.json` looks like this:
 ```json
 {
-  "platform": "twitter",
-  "display_name": "Twitter",
-  "url_pattern": "https://twitter.com/{username}",
+  "platform": "x",
+  "display_name": "X (formerly Twitter)",
+  "url_pattern": "https://x.com/{username}",
   "validation_regex": "^[A-Za-z0-9_]{1,15}$",
-  "example": "https://twitter.com/jack",
-  "last_verified": "2024-06-10"
+  "example": "https://x.com/elonmusk",
+  "last_verified": "2025-06-20"
 }
 ```
 
 ## Roadmap
-- [x] Define initial schema and data
-- [x] Build REST API to serve data
-- [ ] Create SDKs for JS, Python, and more
-- [ ] Add automated monitoring for link changes
-- [ ] Grow community and contributions
+- [x] Define initial schema and data (2025)
+- [x] Build REST API to serve data (2025)
+- [ ] Create SDKs for JS, Python, and more (2025)
+- [ ] Add automated monitoring for link changes (2025)
+- [ ] Grow community and contributions (2025)
 
 ## Contributing
 1. Fork the repo and create a branch.
